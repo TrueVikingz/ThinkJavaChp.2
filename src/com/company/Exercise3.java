@@ -40,10 +40,10 @@ public class Exercise3 {
 
         //Percantage.
         System.out.print("The percentage of the day that has passed: ");
-        System.out.print(percentpassed);
+        System.out.printf("%.3f", percentpassed);
         System.out.println("%.");
         System.out.print("The percentage of the day that are remaining: ");
-        System.out.print(percentremaing);
+        System.out.printf("%.3f", percentremaing);
         System.out.println("%.");
 
         //Current time changes
